@@ -1,6 +1,7 @@
 # Camping::Kirbybase
 
-TODO: Write a gem description
+This gem allows you to easily use KirbyBase with the amazing Camping web framework.
+It's just a quick hack to let you focus on the code and not configuring a bunch of stuff
 
 ## Installation
 

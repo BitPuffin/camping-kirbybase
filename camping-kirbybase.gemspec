@@ -4,8 +4,8 @@ require File.expand_path('../lib/camping-kirbybase/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Isak Andersson"]
   gem.email         = ["BitPuffin@lavabit.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Easily use KirbyBase with Camping!}
+  gem.summary       = %q{Use KirbyBase with Camping}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
@@ -13,5 +13,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "camping-kirbybase"
   gem.require_paths = ["lib"]
-  gem.version       = Camping::Kirbybase::VERSION
+  gem.version       = Kirby::VERSION
 end

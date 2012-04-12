@@ -1,7 +1,19 @@
 require "camping-kirbybase/version"
+require 'kirbybase'
 
-module Camping
-  module Kirbybase
-    # Your code goes here...
-  end
+module Kirby
+	module Helpers
+		# No helpers yet..
+	end
+	
+	def Kirby.included(mod)
+		mod.module_eval "
+		Kirby = Module.new
+
+		module Helpers
+			include ::Kirby::Helpers	# Future features? Meeeebeeee!
+			include Kirby
+		end
+		"
+	end
 end
