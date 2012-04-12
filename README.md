@@ -19,7 +19,22 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+On the top of your file:
+
+require 'camping-kirbybase'
+
+and in your app module:
+
+module App
+	include Kirby
+end
+
+And then in module App::Kirby you can
+write any code you want. So basically wrap your
+KirbyBase code in methods or classes or whatever and use
+them in your controller the way you want it.
+
+TODO: Write better description and all that stuff. With real examples!
 
 ## Contributing
 
