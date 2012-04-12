@@ -26,7 +26,9 @@ require 'camping-kirbybase'
 and in your app module:
 
 module App
+
 include Kirby
+
 end
 
 And then in module App::Kirby you can
